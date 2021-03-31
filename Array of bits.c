@@ -15,7 +15,7 @@ int main() {
   SET_BIT(array_of_bits, 32);
   
   // this for loop will print a '+' for bit that is 1 and '.' for a bit that is 0
-  for (uint8_t i; i < 64; i++) {
+  for (uint8_t i = 0; i < 64; i++) {
     if (IS_BIT_SET(array_of_bits, i)) {
       printf("+");
     } else {
