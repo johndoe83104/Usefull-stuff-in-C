@@ -1,2 +1,2 @@
-# Usefull-stuff-in-C
+# Usefull stuff in C 
 Examples of usefull stuff in C
