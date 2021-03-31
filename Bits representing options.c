@@ -4,6 +4,7 @@
 #define ERROR_MSG   0x01   // 0b00000001
 #define WARNING_MSG 0x02   // 0b00000010
 #define INFO_MSG    0x03   // 0b00000100
+#define ALL_MSG     0xFF   // 0b11111111
 
 void showMessage(uint8_t options);
 
