@@ -11,6 +11,7 @@ int main () {
     int value_3 = 30;
     int value_4 = 40;      
     
+    // There are three examples of the same function taking two, three and four parameters
     print_ints(2, value_1, value_2);
     print_ints(3, value_1, value_2, value_3);
     print_ints(4, value_1, value_2, value_3, value_4);   
