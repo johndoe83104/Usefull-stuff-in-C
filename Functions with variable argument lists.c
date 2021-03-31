@@ -6,6 +6,7 @@ void print_ints(int num, ...);
 
 int main () {
 
+    // Dummy variables that will be passed as parameters to the function 
     int value_1 = 10;
     int value_2 = 20;
     int value_3 = 30;
