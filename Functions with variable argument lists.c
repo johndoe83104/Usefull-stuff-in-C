@@ -21,12 +21,10 @@ int main () {
 void print_ints(int num, ...) {
     
     va_list args;
-    va_start(args, num);
-    int arr[num];
+    va_start(args, num);  
     for (int i = 0; i < num; i++) {
         int value = va_arg(args, int);
-        printf("%d: %d\n", i, value);
-        arr[i] = value;
+        printf("%d: %d\n", i, value);        
     }
     va_end(args);
 }
