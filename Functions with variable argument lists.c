@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+// Declaration of the function that can take variable number of parameters 
 void print_ints(int num, ...);
 
 int main () {
@@ -12,8 +13,7 @@ int main () {
     
     print_ints(2, value_1, value_2);
     print_ints(3, value_1, value_2, value_3);
-    print_ints(4, value_1, value_2, value_3, value_4);
-    
+    print_ints(4, value_1, value_2, value_3, value_4);   
 
   return 0;
 }
